@@ -1,0 +1,61 @@
+# =========================
+# C / C++
+# =========================
+
+# Executables
+a.out
+*.out
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Static & Shared Libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# =========================
+# Java
+# =========================
+
+# Compiled Java files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# =========================
+# IDE Files
+# =========================
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Temporary Files
+# =========================
+
+*.log
+*.tmp
+*.swp
