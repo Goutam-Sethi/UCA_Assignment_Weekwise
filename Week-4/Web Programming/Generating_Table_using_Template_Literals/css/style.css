@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+#appcontent {
+    width: 100%;
+    max-width: 700px;
+}
+
+
+#appcontent h2 {
+    text-align: center;
+    color: #2563eb;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+
+thead {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+}
+
+thead th {
+    padding: 16px;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 16px;
+}
+
+
+tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+
+tbody tr:hover {
+    background: #dbeafe;
+    transition: 0.3s;
+}
+
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
