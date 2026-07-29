@@ -30,7 +30,8 @@ int main(int argc, char *argv[]) {
         openFlags = O_CREAT | O_WRONLY | O_APPEND;
         filePerms = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH;
 
-        logFd = open(LOGFILE, openFlags, filePerms); //third argument only considered when new file is created
+        logFd = open(LOGFILE, openFlags, filePerms); //third argument only considered 
+                                                     //when new file is created
 
         if (logFd == -1) {
             printf("Error opening log file\n");
