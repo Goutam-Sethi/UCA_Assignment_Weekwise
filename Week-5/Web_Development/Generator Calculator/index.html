@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Generator Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="calculator">
+      <h1>Generator Calculator</h1>
+
+      <div class="input-group">
+        <label>Initial Value</label>
+        <input type="number" id="initialValue" value="50" />
+      </div>
+
+      <button class="start-btn" onclick="startCalculator()">
+        Start Calculator
+      </button>
+
+      <div class="input-group">
+        <label>Operation</label>
+
+        <select id="operation">
+          <option value="add">Add (+)</option>
+          <option value="subtract">Subtract (-)</option>
+          <option value="multiply">Multiply (×)</option>
+          <option value="divide">Divide (/)</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label>Value</label>
+        <input type="text" id="value" placeholder="Enter value" />
+      </div>
+
+      <button class="calculate-btn" onclick="calculate()">Calculate</button>
+
+      <div class="result-box">
+        <h3>Result</h3>
+        <p id="result">Start the calculator</p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
